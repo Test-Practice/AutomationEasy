@@ -6,9 +6,9 @@ public void startApp(String browserName, String appUrl);
 
 public void type(WebElement element, String data);
 
-public WebElement findObject(String locatorType, String locatorValue);
+public WebElement getElement(String locatorType, String locatorValue);
 
-public List<WebElement> findObjects(String locatorType, String locatorValue);
+public List<WebElement> getElements(String locatorType, String locatorValue);
 
 public void click(WebElement element);
 
